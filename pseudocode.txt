@@ -1,0 +1,48 @@
+Goal: Create a word guess game. Display _ _ _ for every letter in a word selected. Player guesses by entering a letter on the keyboard. If letter exists in the _ _ _ , then display in correct spot. If letter does not exist, sbutract 1 from # (guesses remaining) and display no letters. A box should exist to who which letters use has entered incorrectly. Game ends and resets after user runs out of guesses or all letters in word are guessed, but keeps track of number of wins.
+
+
+Press any key to get started!
+
+on keypress 
+
+Wins:
+
+Reamining Guesses:
+
+Letters Guessed:
+
+Player presses any key
+
+selects word _ _ _ _ 
+
+
+array of words ['wordone', 'wordtwo', 'wordthree']
+
+
+select array[0]
+
+get string length
+
+length = 7
+
+in document.body, display _ for 1, _ for 2, _ for 3, etc.
+
+
+onkey press check string for existing letter against letter pressed
+
+- on key press 'w', replace _ 1 with 'w'
+- if unable to find 'w' in string, run code block:
+	- subtract 1 from "remaining guesses" #
+	- write letter pressed to "Letters Guessed" box
+		- in document body write letter 'w'
+
+when letters guessed = 0
+
+- replace all _ with corresponding letters
+
+- display text stating "game over"
+
+- return to "press any key" function and pick new word
+
+
+
