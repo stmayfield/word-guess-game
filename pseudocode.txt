@@ -1,6 +1,12 @@
 Goal: Create a word guess game. Display _ _ _ for every letter in a word selected. Player guesses by entering a letter on the keyboard. If letter exists in the _ _ _ , then display in correct spot. If letter does not exist, sbutract 1 from # (guesses remaining) and display no letters. A box should exist to who which letters use has entered incorrectly. Game ends and resets after user runs out of guesses or all letters in word are guessed, but keeps track of number of wins.
 
 
+
+
+PseudoCode:
+
+
+
 Press any key to get started!
 
 on keypress 

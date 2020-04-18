@@ -47,7 +47,7 @@ console.log(thirdDisplay[5])
 
 
 
-//
+/*
 var p1 = document.getElementById("paragraph")
 
 

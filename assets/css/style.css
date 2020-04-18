@@ -11,6 +11,15 @@ p {
     font-size: 18px;
 }
 
+#board {
+    visibility: hidden;
+}
+
+#key-press {
+    visibility: visible;
+}
+
 /* #paragraph {
     color: aqua;
 } */
+
