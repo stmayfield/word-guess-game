@@ -19,6 +19,10 @@ p {
     visibility: visible;
 }
 
+#guess {
+    visibility: visible;
+}
+
 /* #paragraph {
     color: aqua;
 } */
